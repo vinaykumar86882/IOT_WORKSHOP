@@ -1,3 +1,4 @@
+THIS IS THE CODE FOR CONNECTING ESP32 WITH WIFI TO ACCESS MAC ADDRESS
 #include <WiFi.h>  // Include the WiFi library for ESP32
 
 // Replace with your network credentials (use double quotes)
