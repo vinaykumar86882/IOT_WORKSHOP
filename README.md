@@ -29,7 +29,7 @@ This project is set up to connect to a Wi-Fi network and communicate with an MQT
 
 To view output and monitor data, open the Serial Monitor in the Arduino IDE at a baud rate of 115200. The ESP32 will output connection status, MQTT activity, and sensor readings formatted in JSON.
 
-- [Main Code](MainCode.ino): Combines Wi-Fi and LED control and connects to mqtt server
+- [code for publishing and subscribing esp32 data](src/main.ino): Combines Wi-Fi and LED control and connects to mqtt server
 
 - 
 #MQTT
