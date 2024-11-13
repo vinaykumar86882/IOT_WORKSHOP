@@ -10,7 +10,7 @@ This project uses an ESP32 to connect to a 2.4GHz Wi-Fi network supporting 802.1
 The ESP32 cannot interact with networks requiring a browser-based login (often used in public spaces like hotels), as it lacks a native browser interface. This project requires a network with basic WPA/WPA2 security (password-based) rather than advanced methods like LDAP or certificate-based authentication.
 
 If a suitable network is unavailable, a smartphone hotspot can serve as an alternative. The project’s data usage is minimal, making it suitable for mobile hotspot use.
-- [WiFi Setup Code](WiFiSetup.ino): Handles Wi-Fi connections.
+- [WiFi Setup Code](wifi_setup.ino/wifi_setup.ino.ino): Handles Wi-Fi connections.
 
 ---------------------------------------------------------------------------------------------------------------------------
 #led_control_code based on temoerature and humidity changes
