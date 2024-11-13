@@ -16,7 +16,7 @@ If a suitable network is unavailable, a smartphone hotspot can serve as an alter
 #led_control_code based on temoerature and humidity changes
 This ESP32 project connects to Wi-Fi and controls an RGB LED based on temperature and humidity data gathered from a DHT sensor. It formats and outputs the sensor data as a JSON string. The RGB LED color changes according to temperature thresholds defined in the code. based on temperature and humidity led will change its lights automatically
 
-- [LED Control Code](wifi_setup.ino/wifi_setup.ino.ino): Manages the RGB LED.
+- [LED Control Code](led_control_code.ino/led_control_code.ino.ino): Manages the RGB LED.
 
 
 -----------------------------------------------------------------------------------------------------------------------------
